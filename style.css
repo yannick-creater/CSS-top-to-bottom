@@ -1,0 +1,121 @@
+:root {
+     --box-size: 250px;
+     --border-radius: 8px;
+     --transition-speed: 0.3s;
+
+
+}
+
+
+
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+html {
+     scroll-behavior: smooth;
+}
+
+body {
+     background-color: #000;
+     width: 100%;
+     height: 100%;
+     
+     
+}
+
+.main {
+     
+     align-content: center;
+     width: 100%;
+     height: 100%;
+}
+
+.box, .box1, .box2, .box3, .box4, .box5, .box6 {
+     margin: 0 auto;
+     transition: background-color var(--transition-speed) ease;
+     cursor: pointer;
+}
+
+.box:hover, .box1:hover, .box2:hover,
+.box3:hover, .box4:hover, .box5:hover, .box6:hover {
+    transform: scale(1.05); 
+    opacity: 0.9;
+}
+
+ .box {
+     font-size: 12px;
+     align-content: center;
+     text-align: center;
+     line-height: 1.7rem;
+     background-color: blue;
+     color: white;
+     width: var(--box-size);
+     height: var(--box-size);   
+}
+
+.box .gtb {
+     background-color: firebrick;
+     border: 3px solid white;
+}
+    
+     .box1 {
+     background-color: navy;
+     width: var(--box-size);
+     height: var(--box-size);   
+}
+
+ .box2 {
+     background-color: yellow;
+     width: var(--box-size);
+     height: var(--box-size);
+}
+
+ .box3 {
+     background-color: bisque;
+     width: var(--box-size);
+     height: var(--box-size);   
+}
+
+ .box4 {
+     background-color: fuchsia;
+     width: var(--box-size);
+     height: var(--box-size);   
+}
+
+ .box5 {
+     background-color: forestgreen;
+     width: var(--box-size);
+     height: var(--box-size);   
+}
+
+ .box6 {
+     background-color: red;
+     width: var(--box-size);
+     height: var(--box-size);   
+}
+#bottom {
+     text-align: center;
+     align-content: center;
+}
+button {
+     padding: 8px 16px;
+     font-size: 12px;
+     margin-top: 10px;
+     border-radius: var(--border-radius);
+     cursor: pointer;
+     border: 1px solid white;
+     background-color: transparent;
+     transition: background-color 0.3s ease;
+}
+
+button:hover {
+     background-color: orange;
+     color: black;
+}
+.bottom .h1b {
+     background-color: yellow;
+     border: 2px solid white;
+}
